@@ -7,8 +7,6 @@ workflows:
       - test-behat
       - test-phpunit-redis-disabled-74
       - test-phpunit-redis-enabled-74
-      - test-phpunit-redis-disabled-82
-      - test-phpunit-redis-enabled-82
   nightly:
     triggers:
       - schedule:
